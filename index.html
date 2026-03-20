@@ -11,7 +11,7 @@
 
     <header>
         <nav>
-            <a href="#about"><div class="logo">&lt;RAЯ&gt;</div></a>
+            <a href="javascript:void(0)" id="logo-scroll"><div class="logo">&lt;RAЯ&gt;</div></a>
             <div class="hamburger">
                 <span></span><span></span><span></span>
             </div>
@@ -81,6 +81,14 @@
         const nav = document.querySelector(".nav-links");
         document.querySelector(".hamburger").addEventListener("click", () => nav.classList.toggle("active"));
         nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => nav.classList.remove("active")));
+        const logo = document.getElementById('logo-scroll');
+        logo.addEventListener('click', (e) => {
+            e.preventDefault(); 
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
     </script>
 </body>
 </html>
