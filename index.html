@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajiv A R | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">&lt;RAЯ&gt;</div>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div>
+            <h2>Hello, I am</h2>
+            <h1>Rajiv A R.</h1>
+            <p>I'm a 1st-year Computer Science Engineering student focused on algorithmic problem-solving and competitive programming. When I'm not optimizing code or practicing data structures, you'll likely find me getting lost in a good book, feeling the music, or gaming.</p>
+            <a href="#experience" class="btn">View My Experience</a>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2 class="title-line">Experience & Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Competitive Programming</h3>
+                <p>Actively solving algorithmic problems under time constraints to practice data structures and algorithm optimization.</p>
+                <a href="#" target="_blank">View Profile &rarr;</a>
+            </div>
+            <div class="card">
+                <h3>Peer Tutoring</h3>
+                <p>Volunteered to tutor underclassmen in mathematics and computational problem solving, contributing to a collaborative learning environment.</p>
+                <a href="#" target="_blank">Read More &rarr;</a>
+            </div>
+            <div class="card">
+                <h3>Dark-Mode Portfolio</h3>
+                <p>Designed and developed this responsive static webpage using HTML5 and CSS3 for my User Interface Design coursework.</p>
+                <a href="https://github.com" target="_blank">GitHub Repo &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="title-line">Technical Skills & Strengths</h2>
+        <div class="tags">
+            <span>Python</span>
+            <span>Competitive Programming</span>
+            <span>Mathematics</span>
+            <span>HTML5 & CSS3</span>
+            <span>UI Design</span>
+            <span>Problem-Solving</span>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Let's Connect</h2>
+        <p>Always open to discussing algorithms, engineering projects, or sharing music recommendations.</p>
+        <div class="socials">
+            <a href="mailto:rajiv.a.r@outlook.com">Email Me</a>
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        </div>
+        <p class="copy">&copy; 2026 Rajiv A R. Designed for Project Phase -I.</p>
+    </footer>
+
+    <script>
+        const nav = document.querySelector(".nav-links");
+        document.querySelector(".hamburger").addEventListener("click", () => nav.classList.toggle("active"));
+        nav.querySelectorAll("a").forEach(link => link.addEventListener("click", () => nav.classList.remove("active")));
+    </script>
+</body>
+</html>
