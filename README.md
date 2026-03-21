@@ -1,7 +1,7 @@
 # Rajiv A R | Personal Portfolio 🚀
 
-A sleek, responsive, dark-mode personal portfolio website designed to showcase my skills, experience, and projects as a Computer Science Engineering student.
-[Link for the website](merlin258.github.io/portfolio)
+A sleek, responsive, dark-mode personal portfolio website designed to showcase my skills, experience, and projects as a Computer Science Engineering student.\n
+[Link for the website](merlin258.github.io/portfolio):
 merlin258.github.io/portfolio
 
 ## 🌟 Features
